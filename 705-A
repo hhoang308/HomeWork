@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+	int statement;
+	scanf("%d",&statement);
+	printf("I hate ");
+	for(i = 2; i <= statement; i++)
+	{
+		if(i % 2 == 1)
+		{
+			printf("that I hate ");
+		}
+		else
+		{
+			printf("that I love ");
+		}
+	}
+	printf("it");
+	return 0;
+}
